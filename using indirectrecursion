@@ -1,0 +1,12 @@
+def A(n):
+    if n<=0:
+        return
+    print("prasanna", n)
+    B(n-1)
+def B(n):
+    if n<=0:
+        return
+    print("Boyina",n)
+    A(n-1)
+num= int(input())
+A(num)
